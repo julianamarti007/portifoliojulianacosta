@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio de Juliana Costa — desenvolvimento web.">
+  <title>Juliana Costa | Portfólio</title>
+  <script>
+    try {
+      document.documentElement.setAttribute("data-theme", localStorage.getItem("theme") || "dark");
+    } catch (e) {
+      document.documentElement.setAttribute("data-theme", "dark");
+    }
+  </script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  
+  <div class="cursor-glow" aria-hidden="true"></div>
+  <div class="particles" aria-hidden="true"></div>
+
+  <button class="theme-toggle" id="themeToggle" type="button" aria-label="Alternar tema">☀</button>
+
+  <header class="topbar" id="topbar">
+    <nav class="nav" aria-label="Navegação principal">
+      <a href="#home">HOME</a>
+      <a href="#about">ABOUT</a>
+      <a href="#skills">SKILLS</a>
+      <a href="#projects">PROJECTS</a>
+      <a href="#contact">CONTACT</a>
+    </nav>
+  </header>
+
+  <main>
+   
+    <section class="section hero" id="home">
+      <div class="hero-content reveal">
+        <p class="eyebrow">HI, I'M</p>
+        <h1>JULIANA<br>COSTA</h1>
+        <p class="hero-subtitle">DESENVOLVIMENTO • CRIATIVIDADE • APRENDIZAGEM</p>
+        <div class="hero-buttons">
+          <a class="primary-button magnetic" href="#about">CONHEÇA MEU TRABALHO</a>
+          <a class="primary-button secondary magnetic" href="https://github.com/julianamarti007" target="_blank" rel="noopener noreferrer">MEU GITHUB ↗</a>
+        </div>
+      </div>
+
+      <div class="hero-photo-wrap" data-parallax="0.12">
+        <div class="hero-ring"></div>
+        <img class="hero-photo" src="assets/foto-juliana.png" alt="Juliana segurando uma câmera">
+      </div>
+
+      <div class="scroll-indicator" aria-hidden="true">
+        <span></span>
+        SCROLL
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="section-inner">
+        <div class="section-heading reveal">
+          <span class="section-arrow">→</span>
+          <div>
+            <p class="section-kicker">ABOUT ME</p>
+            <h2>em formação ativa</h2>
+          </div>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-visual reveal" data-tilt>
+            <div class="about-glow"></div>
+            <img src="assets/sobre-mim.png" alt="Ilustração em pixel art">
+            <span class="visual-caption">CRIAR • TESTAR • APRENDER</span>
+          </div>
+
+          <article class="about-text reveal">
+            <p>Sou Juliana Costa Rodrigues Martinez, tenho 18 anos e estou no início da carreira em desenvolvimento. Minha trajetória inicial foi de edição de vídeos, imagens e em 2026 entrei para o Colégio COTEMIG.</p>
+            <p>Ainda não tenho anos de mercado mas tenho, sim, disciplina para aprender rápido e aplicar o que aprendo no mesmo dia.</p>
+            <p>Uso cada projeto pessoal como treino: planejo, quebro em etapas, testo, corrijo até funcionar direito.</p>
+            <p>Trabalho bem em equipe, mantenho tudo organizado do primeiro rascunho até a entrega, e quando travo em algo que não conheço, minha primeira reação é pesquisar ou perguntar, nunca travar de vez.</p>
+
+            <div class="about-stats">
+              <div><strong>01</strong><span>curiosidade</span></div>
+              <div><strong>02</strong><span>proatividade</span></div>
+              <div><strong>03</strong><span>evolução</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    
+    <section class="section skills" id="skills">
+      <div class="section-inner">
+        <div class="section-heading reveal">
+          <span class="section-arrow">→</span>
+          <div>
+            <p class="section-kicker">SKILLS</p>
+            <h2>hard skills</h2>
+          </div>
+        </div>
+
+        <div class="skills-grid reveal">
+          <a class="skill-card certificate-card" href="certificados/certificado-html.pdf" target="_blank" rel="noopener">
+            <span class="skill-number">01</span>
+            <span class="skill-name">HTML</span>
+            <small>VER CERTIFICADO ↗</small>
+          </a>
+
+          <a class="skill-card certificate-card" href="certificados/certificado-css.pdf" target="_blank" rel="noopener">
+            <span class="skill-number">02</span>
+            <span class="skill-name">CSS</span>
+            <small>VER CERTIFICADO ↗</small>
+          </a>
+
+          <div class="skill-card">
+            <span class="skill-number">03</span>
+            <span class="skill-name">JS</span>
+            <small>EM DESENVOLVIMENTO</small>
+          </div>
+
+          <div class="skill-card">
+            <span class="skill-number">04</span>
+            <span class="skill-name">BANCO DE DADOS</span>
+            <small>CONHECIMENTOS EM DESENVOLVIMENTO</small>
+          </div>
+        </div>
+
+        <div class="section-heading soft-heading reveal">
+          <span class="section-arrow">→</span>
+          <div>
+            <p class="section-kicker">SOFT SKILLS</p>
+            <h2>como eu trabalho</h2>
+          </div>
+        </div>
+
+        <div class="soft-grid reveal">
+          <div class="soft-card"><span>01</span><strong>Aprendizagem<br>na prática</strong></div>
+          <div class="soft-card"><span>02</span><strong>Trabalho<br>em equipe</strong></div>
+          <div class="soft-card"><span>03</span><strong>Proatividade</strong></div>
+        </div>
+      </div>
+    </section>
+
+   
+    <section class="section projects" id="projects">
+      <div class="section-inner">
+        <div class="section-heading reveal">
+          <span class="section-arrow">→</span>
+          <div>
+            <p class="section-kicker">PROJECTS</p>
+            <h2>landing page</h2>
+          </div>
+        </div>
+
+        <div class="project-card reveal" data-tilt>
+          <div class="project-preview">
+            <div class="fake-browser">
+              <span></span><span></span><span></span>
+              <div class="browser-line"></div>
+            </div>
+            <div class="preview-content">
+              <p>PROJETO WEB</p>
+              <h3>LANDING PAGE</h3>
+              <span>HTML • CSS • RESPONSIVO</span>
+            </div>
+          </div>
+
+          <div class="project-info">
+            <div>
+              <span class="project-label">MEU PROJETO</span>
+              <h3>Landing Page</h3>
+              <p>Projeto desenvolvido por mim. Clique para abrir o site e visualizar o resultado.</p>
+            </div>
+            <a class="primary-button magnetic" href="https://julianamarti007.github.io/landingpagebrechots/" target="_blank" rel="noopener noreferrer">
+              ABRIR SITE ↗
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="section-inner">
+        <div class="contact-title reveal">
+          <p class="section-kicker">CONTACT</p>
+          <h2>ENTRE EM CONTATO</h2>
+        </div>
+
+        <form class="contact-form reveal" id="contactForm">
+          <div class="field">
+            <label for="nome">NOME</label>
+            <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+          </div>
+
+          <div class="field">
+            <label for="email">GMAIL</label>
+            <input type="email" id="email" name="email" placeholder="seuemail@gmail.com" required>
+          </div>
+
+          <div class="field">
+            <label for="telefone">TELEFONE</label>
+            <input type="tel" id="telefone" name="telefone" placeholder="(31) 99999-9999" inputmode="numeric" autocomplete="tel" maxlength="15" required>
+          </div>
+
+          <div class="field">
+            <label for="mensagem">MENSAGEM</label>
+            <textarea id="mensagem" name="mensagem" rows="6" placeholder="Escreva sua mensagem..." required></textarea>
+          </div>
+
+          <button class="primary-button submit-button magnetic" type="submit">ENVIAR MENSAGEM ↗</button>
+          <p class="form-status" id="formStatus" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>JULIANA COSTA • PORTFÓLIO</p>
+    <div class="footer-links">
+      <a href="mailto:juliana.marti325z@gmail.com">juliana.marti325z@gmail.com</a>
+      <a href="https://github.com/julianamarti007" target="_blank" rel="noopener noreferrer">GITHUB ↗</a>
+      <a href="#home">VOLTAR AO TOPO ↑</a>
+    </div>
+  </footer>
+
+  <div class="modal" id="confirmModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" hidden>
+    <div class="modal-backdrop" id="modalBackdrop"></div>
+    <div class="modal-box">
+      <p class="section-kicker modal-kicker">CONFIRMAÇÃO</p>
+      <h3 id="modalTitle">Enviar esta mensagem?</h3>
+      <p class="modal-text">Confira os dados. Ao confirmar, seu aplicativo de e-mail será aberto com a mensagem pronta.</p>
+
+      <dl class="modal-summary">
+        <div><dt>NOME</dt><dd id="sumNome"></dd></div>
+        <div><dt>GMAIL</dt><dd id="sumEmail"></dd></div>
+        <div><dt>TELEFONE</dt><dd id="sumTelefone"></dd></div>
+        <div><dt>MENSAGEM</dt><dd id="sumMensagem"></dd></div>
+      </dl>
+
+      <div class="modal-actions">
+        <button type="button" class="primary-button secondary" id="modalCancel">CANCELAR</button>
+        <button type="button" class="primary-button" id="modalConfirm">CONFIRMAR ENVIO ↗</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
